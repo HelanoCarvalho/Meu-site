@@ -131,7 +131,6 @@ function Principal(){
             </div>
            
             <div className="jogo-esquerda">
-                
                     <div id="div_serie"></div>
                     <figcaption id="legenda" className="fig_serie">
                         <Link to="/Series"><button id="ver_mais" className="btn_serie">Ver Mais</button></Link>
@@ -147,7 +146,7 @@ function Principal(){
                     </figcaption>
                 
             </div>
-            <img src={tlou} alt='destroe' id="destroe"/>
+            <img src={tlou} alt='destroir' id="destroe"/>
         </section>
     </div>
     )

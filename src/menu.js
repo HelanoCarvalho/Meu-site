@@ -11,7 +11,7 @@ function Navegar(){
             <ul>
 
                 <li>
-                    <Link to="/"><p id="home" >Home</p></Link> 
+                    <Link to="/Meu-site"><p id="home" >Home</p></Link> 
                 </li>
 
                 <li>

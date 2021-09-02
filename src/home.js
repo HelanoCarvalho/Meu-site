@@ -1,4 +1,4 @@
-import { Link, Router, BrowserRouter } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import './home.css'
 import React from 'react'
 import tlou from './tlou2.jpg'
@@ -147,7 +147,7 @@ function Principal(){
                     </figcaption>
                 
             </div>
-            <img src={tlou} id="destroe"/>
+            <img src={tlou} alt='destroe' id="destroe"/>
         </section>
     </div>
     )

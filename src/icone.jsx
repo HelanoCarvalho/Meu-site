@@ -67,7 +67,7 @@ const Icone = props => {
             
 
             <div id="item">
-                <img id="img" className={props.class} src={props.img}/>
+                <img id="img" alt='imagem' className={props.class} src={props.img}/>
                 <div id="div_titulo">
                     <h1 onClick={gerar} id="titulo">{props.titulo}</h1>
                 </div>               

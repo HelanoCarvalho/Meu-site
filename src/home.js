@@ -50,67 +50,67 @@ function Principal(){
 
     // Jogo
     
-    if (num_jogo == 1){
+    if (num_jogo === 1){
         img_jogo.setAttribute('src', tlou)
         div_jogo.appendChild(img_jogo)
-    }else if(num_jogo == 2){
+    }else if(num_jogo === 2){
         img_jogo.setAttribute('src', gow)
         div_jogo.appendChild(img_jogo)
-    }else if(num_jogo == 3){
+    }else if(num_jogo === 3){
         img_jogo.setAttribute('src', over)
         div_jogo.appendChild(img_jogo)
-    }else if(num_jogo == 4){
+    }else if(num_jogo === 4){
         img_jogo.setAttribute('src', out)
         div_jogo.appendChild(img_jogo)
-    }else if(num_jogo == 5){
+    }else if(num_jogo === 5){
         img_jogo.setAttribute('src', re4)
         div_jogo.appendChild(img_jogo)
-    } else if(num_jogo == 6){
+    } else if(num_jogo === 6){
         img_jogo.setAttribute('src', rdr)
         div_jogo.appendChild(img_jogo)
     }
     
     // Serie
-    if (num_serie == 1){
+    if (num_serie === 1){
         img_serie.setAttribute('src', TUA)
         div_serie.appendChild(img_serie)
-    }else if(num_serie == 2){
+    }else if(num_serie === 2){
         img_serie.setAttribute('src', TWD)
         div_serie.appendChild(img_serie)
-    }else if(num_serie == 3){
+    }else if(num_serie === 3){
         img_serie.setAttribute('src', TBBT)
         div_serie.appendChild(img_serie)
-    }else if(num_serie == 4){
+    }else if(num_serie === 4){
         img_serie.setAttribute('src', YOU)
         div_serie.appendChild(img_serie)
-    }else if(num_serie == 5){
+    }else if(num_serie === 5){
         img_serie.setAttribute('src', GOT)
         div_serie.appendChild(img_serie)
-    } else if(num_serie == 6){
+    } else if(num_serie === 6){
         img_serie.setAttribute('src', RandM)
         div_serie.appendChild(img_serie)
-    }else if(num_serie == 7){
+    }else if(num_serie === 7){
         img_serie.setAttribute('src', grimm)
         div_serie.appendChild(img_serie)
     }
     
     // Filme
-    if (num_filme == 1){
+    if (num_filme === 1){
         img_filme.setAttribute('src', qtd)
         div_filme.appendChild(img_filme)
-    }else if(num_filme == 2){
+    }else if(num_filme === 2){
         img_filme.setAttribute('src', TOG)
         div_filme.appendChild(img_filme)
-    }else if(num_filme == 3){
+    }else if(num_filme === 3){
         img_filme.setAttribute('src', Outros)
         div_filme.appendChild(img_filme)
-    }else if(num_filme == 4){
+    }else if(num_filme === 4){
         img_filme.setAttribute('src', M2I)
         div_filme.appendChild(img_filme)
-    }else if(num_filme == 5){
+    }else if(num_filme === 5){
         img_filme.setAttribute('src', IlhaM)
         div_filme.appendChild(img_filme)
-    } else if(num_filme == 6){
+    } else if(num_filme === 6){
         img_filme.setAttribute('src', DH)
         div_filme.appendChild(img_filme)
     }

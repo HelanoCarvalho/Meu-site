@@ -8,7 +8,7 @@ import out from './outlast.jpg'
 import rdr from './RDR2.jpg'
 
 
-export default props =>
+const jogo = props =>
 
    
         <div className="tela">
@@ -25,3 +25,5 @@ export default props =>
 
             <Icone img={rdr} titulo="Red Dead Redemption 2" sinopse = 'Depois de tudo dar errado durante um roubo em uma cidade do oeste chamada Blackwater, Arthur Morgan e a gangue Van der Linde são forçados a fugir. Com agentes federais e os melhores caçadores de recompensa em seu encalço, a gangue precisa roubar, assaltar e lutar para sobreviver no impiedoso coração dos Estados Unidos. Conforme divisões profundas ameaçam despedaçar a gangue, Arthur deve fazer uma escolha entre os seus próprios ideais e a lealdade à gangue que criou.' class='borda_jogo' url="https://www.youtube.com/embed/zBrkdzAAlkA"></Icone> 
         </div>
+
+export default jogo

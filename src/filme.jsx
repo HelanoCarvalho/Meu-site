@@ -7,7 +7,7 @@ import M2I from './M2I.jpg'
 import TOG from './TOG.jpg'
 import Outros from './outros.jpg'
 
-export default props =>
+const filme = props =>
     <div className="tela">
         <Icone img={qtd} titulo="Questão de Tempo" sinopse = 'Aos 21 anos, Tim descobre um grande segredo — todos os homens de sua família conseguem viajar através do tempo, do qual pensa em tirar proveito. Viajando para Londres, apaixona-se por Mary, mas exagera nas viagens ao passado na tentativa de tornar perfeito o seu relacionamento.' class='borda_filme' url='https://www.youtube.com/embed/-0gX9g4Lxm8'></Icone>
         
@@ -21,3 +21,5 @@ export default props =>
         
         <Icone img={Outros} titulo="Os Outros" sinopse = 'Durante a 2ª Guerra Mundial, Grace (Nicole Kidman) decide por se mudar, juntamente com seus dois filhos, para uma mansão isolada na ilha de Jersey, a fim de esperar que seu marido retorne da guerra. Como seus filhos possuem uma estranha doença que os impedem de receber diretamente a luz do sol, a casa onde vivem está sempre em total escuridão. Eles vivem sozinhos seguindo rigorosamente certas regras, como nunca abrir uma porta sem fechar a anterior, mas quando eles contratam empregados para a casa eles terminam quebrando estas regras, fazendo com que imprevisíveis consequências ocorram.' class='borda_filme' url='https://www.youtube.com/embed/iZmV5gOwHRI'></Icone>
     </div>
+
+export default filme

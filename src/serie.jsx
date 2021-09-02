@@ -8,7 +8,7 @@ import YOU from './YOU.jpg'
 import TUA from './TUA.jpeg'
 import RandM from './RandM.jpg'
 
-export default props =>
+const serie = props =>
     <div className="tela">
         <Icone img={grimm} titulo="Grimm" sinopse = 'O protagonista da série é Nick Burkhardt, um investigador da Homicídios do Departamento de Polícia de Portland, que tem sua vida transformada quando lhe é revelado que descende dos Grimms, uma linhagem de guardiões encarregada de manter o equilíbrio entre a humanidade e os Wesen, criaturas mitológicas que apesar de se fazerem passar por pessoas normais, especialmente na aparência, possuem uma outra entidade, na maior parte das vezes oculta aos humanos' class='borda_serie' url="https://www.youtube.com/embed/2-4xKNZ_gaA"></Icone>
 
@@ -25,3 +25,4 @@ export default props =>
         <Icone img={RandM} titulo="Rick and Morty" sinopse = 'Rick Sanchez é um cientista genial e alcoólatra que foi morar com a família de sua filha Beth, uma cirurgiã cardíaca de equinos. Ele divide seu tempo entre desenvolver projetos altamente tecnológicos em seu laboratório (garagem da casa de Beth) e levar seu neto de 14 anos Morty em aventuras perigosas e surreais pelo Multiverso. Combinados com tensões preexistentes dentro da família, esses eventos causam ao sensível Morty muito angústia em casa e na escola.' class='borda_serie' url="https://www.youtube.com/embed/DuYpZeszaM4"></Icone>
     </div>
 
+export default serie

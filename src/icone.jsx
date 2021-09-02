@@ -6,7 +6,7 @@ import React from 'react'
 
 var teste = true
 
-export default props => {
+const Icone = props => {
     teste = true
 
         
@@ -20,7 +20,7 @@ export default props => {
 
     function gerar(){   
 
-       if (teste == true){
+       if (teste === true){
            
             var trailer = new Trailer(props.url)
             var aqui = document.getElementById('aqui')
@@ -75,3 +75,5 @@ export default props => {
        </>
     )
 }
+
+export default Icone

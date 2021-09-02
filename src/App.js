@@ -18,8 +18,6 @@ function App() {
           <Route path="/jogos" component={Jogo} />
           <Route path="/Series" component={Series} />
           <Route path="/Filmes" component={Filmes} />
-          
-          
         </Switch>
       </BrowserRouter>
     </div>
